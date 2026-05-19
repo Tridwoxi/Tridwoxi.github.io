@@ -7,13 +7,6 @@ body {
     line-height: 1.6;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background: #222222;
-        color: #eeeeee;
-    }
-}
-
 main {
     max-width: 70ch;
     margin: 0 auto;
@@ -27,7 +20,7 @@ main > :last-child {
 h1 {
     font-size: 4rem;
     margin: 0 0 2rem;
-    margin-left: -0.079em; /* Fira Sans 300 when title starts with D */
+    margin-left: -0.079em; /* Left align Fira Sans 300 when title starts with D */
 }
 
 p {
@@ -37,4 +30,16 @@ p {
 a,
 a:visited {
     color: #985333;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #222222;
+        color: #eeeeee;
+    }
+
+    a,
+    a:visited {
+        color: #d1977a;
+    }
 }
