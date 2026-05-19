@@ -1,0 +1,30 @@
+body {
+    background: #dddddd;
+    color: #111111;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #222222;
+        color: #eeeeee;
+    }
+}
+
+main {
+    max-width: 70ch;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0 0 2rem;
+}
+
+p {
+    margin: 0 0 2rem;
+}
