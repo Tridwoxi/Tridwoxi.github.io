@@ -1,0 +1,14 @@
+# Whitelist-like pattern.
+*
+!*/
+
+# Project source.
+!*.html
+!*.css
+!*.md
+
+# Mystery files.
+.*
+
+# Tooling.
+!.gitignore
