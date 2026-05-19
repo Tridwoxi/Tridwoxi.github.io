@@ -1,5 +1,5 @@
 body {
-    background: #dddddd;
+    background: #eeeeee;
     color: #111111;
     font-family: "Fira Sans", sans-serif;
     font-size: 1.25rem;
@@ -17,14 +17,24 @@ body {
 main {
     max-width: 70ch;
     margin: 0 auto;
-    padding: 4rem 1.5rem 0;
+    padding: 4rem 1.5rem;
+}
+
+main > :last-child {
+    margin-bottom: 0;
 }
 
 h1 {
     font-size: 4rem;
     margin: 0 0 2rem;
+    margin-left: -0.079em; /* Fira Sans 300 when title starts with D */
 }
 
 p {
     margin: 0 0 2rem;
+}
+
+a,
+a:visited {
+    color: #985333;
 }
